@@ -1,24 +1,25 @@
 {
-  "name": "note-taker",
+  "name": "Employee-Tracker",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Unit 12 MySQL Homework: Employee Tracker",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kara-krzystan/note-taker.git"
+    "url": "git+https://github.com/xzhw39/edward-xu-haumea.git"
   },
   "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kara-krzystan/note-taker/issues"
+    "url": "https://github.com/xzhw39/edward-xu-haumea/issues"
   },
-  "homepage": "https://github.com/kara-krzystan/note-taker#readme"
+  "homepage": "https://github.com/xzhw39/edward-xu-haumea#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1"
+  }
 }
